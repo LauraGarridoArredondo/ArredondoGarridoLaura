@@ -48,6 +48,13 @@ Ejercicio Funko, Laura Garrido Arredondo
 </ul>
 <b>-Carpeta model:</b>
 <p>En esta carpeta se encontrara el fichero Funko del cual sera la base para funko y sus propiedades establecidas. Junto con el Main de la clase, del cual inicializara las busquedas.</p>
+
+![image](https://github.com/Vanelota/ArredondoGarridoLaura/assets/132077920/ad257492-f4f0-41cf-bbdf-49f3764a4a68)
+
+<ul>
+<li>Aqui se muestra la estructura de Funko.java donde se tienen en cuenta las propiedades de Funko al leer los datos del csv. (Y aunque no se ve en la imagen completamente, los getter y setters de cada uno de las propiedades del Funko.</li>
+
+</ul>
 <b>-Fichero Leercsv:</b>
 <p>Se encargará de leer el fichero csv de funkos.</p>
 <b>-Fichero write Json:</b>
