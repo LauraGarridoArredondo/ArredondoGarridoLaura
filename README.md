@@ -53,10 +53,22 @@ Ejercicio Funko, Laura Garrido Arredondo
 
 <ul>
 <li>Aqui se muestra la estructura de Funko.java donde se tienen en cuenta las propiedades de Funko al leer los datos del csv. (Y aunque no se ve en la imagen completamente, los getter y setters de cada uno de las propiedades del Funko.</li>
-
+  
 </ul>
 <b>-Fichero Leercsv:</b>
 <p>Se encargará de leer el fichero csv de funkos.</p>
+
+<ul>
+<li>Primero se crea una lista juguetes para almacenar objetos de la clase Funko.</li>
+<li>Luego se define una ruta path que apunta al archivo "funkos.csv". La ruta se construye utilizando la ubicación absoluta del directorio actual del programa.</li>
+<b>Se utiliza la biblioteca opencsv para leer el archivo CSV.</b>
+<br>
+<li>Se omite la primera línea del archivo,por tener encabezados de las columnas dentro del csv.</li>
+<li>Luego, se lee cada línea del archivo CSV, se procesa y se crea un objeto Funko a partir de los datos de cada línea. Los datos se extraen y se asignan a las propiedades del objeto Funko.</li>
+<li>Cada objeto Funko se agrega a la lista juguetes.</li>
+<li>Si la lista juguetes no está vacía, se imprime información sobre cada objeto Funko en la lista, incluyendo su código, nombre, modelo, precio y fecha de lanzamiento.</li>
+
+</ul>
 <b>-Fichero write Json:</b>
 <p>Se encargará de escribir el json de funkos.</p>
 <b>-Carpeta Json donde estara el json de Funkos.</b>
