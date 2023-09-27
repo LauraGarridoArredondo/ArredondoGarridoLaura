@@ -41,6 +41,11 @@ Ejercicio Funko, Laura Garrido Arredondo
 </ul>
 <b>-Carpeta database:</b>
 <p>Esta carpeta esta encargada de crear la base de datos, con sus propiedades, configuracion y su manejador de problemas.</p>
+
+![image](https://github.com/Vanelota/ArredondoGarridoLaura/assets/132077920/6a8d18f3-4ba5-4410-a255-f4f7a5839729)
+<ul>
+  <li>Aqui se muestra el fichero databaseConfig, donde como se puede ver solo se encarga de las configuraciones para poder entrar a la base de datos siguiendo su url, poniendo exactamente usuario y contraseña bien. Y asi poder entrar a la base de datos de Funko.</li>
+</ul>
 <b>-Carpeta model:</b>
 <p>En esta carpeta se encontrara el fichero Funko del cual sera la base para funko y sus propiedades establecidas. Junto con el Main de la clase, del cual inicializara las busquedas.</p>
 <b>-Fichero Leercsv:</b>
