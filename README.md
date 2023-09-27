@@ -7,9 +7,11 @@ Ejercicio Funko, Laura Garrido Arredondo
 <b>-CSV:</b>
 <p>Dentro de esta carpeta esta el fichero de funkos csv</p>
 <b>-->Carpeta java (Donde se encuentra la codificación)</b>
+<br>
 <b>-Carpeta adaptador:</b>
 <p>Dentro de esta carpeta esta el fichero encargado de que no de problemas el LocalDate a la hora de leer o crear el fichero json de Funkos.</p>
-![localdate](https://github.com/Vanelota/ArredondoGarridoLaura/assets/132077920/0fe47262-74f9-4015-8915-cd2162d86c7f)
+
+![image](https://github.com/Vanelota/ArredondoGarridoLaura/assets/132077920/80d1d8e7-c6e0-440d-9bef-d7e8c6c91abf)
 <ul>
   <p>Formato de Fecha y Hora:</p>
   <li>La clase utiliza `DateTimeFormatter` para especificar el formato en el que se deben representar las fechas `LocalDate` cuando se conviertan a JSON. El formato utilizado es "yyyy-MM-dd" para mayor entendimiento.</li>
