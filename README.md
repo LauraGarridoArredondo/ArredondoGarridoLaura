@@ -27,6 +27,18 @@ Ejercicio Funko, Laura Garrido Arredondo
 
 <b>-Carpeta Crud: </b>
 <p>Dentro de esta carpeta se encuentran los ficheros para poder hacer el crud de Funko, con una interfaz y las clases Repositorio y Servicio que se encargaran de manejar los crud y find by nombre y id.</p>
+
+![image](https://github.com/Vanelota/ArredondoGarridoLaura/assets/132077920/dbc71bbf-16eb-4b9c-8603-b1efe71d54d8)
+<ul>
+  <p>Aqui se muestra la interfaz del cual las dos clases de java se toman de referencia. Como se puede ver se muestra:</p>
+<li>save: Guarda un objeto y devuelve el mismo objeto.</li>
+<li>update: Actualiza un objeto y devuelve el mismo objeto.</li>
+<li>findById: Busca un objeto por su ID y devuelve un Optional.</li>
+<li>findAll: Busca y devuelve todos los objetos.</li>
+<li>deleteById: Borra un objeto por su ID y devuelve true si todo funciona correctamente.</li>
+<li>deleteAll: Borra todos los objetos en la base de datos.</li>
+
+</ul>
 <b>-Carpeta database:</b>
 <p>Esta carpeta esta encargada de crear la base de datos, con sus propiedades, configuracion y su manejador de problemas.</p>
 <b>-Carpeta model:</b>
