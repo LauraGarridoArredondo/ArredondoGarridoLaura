@@ -71,5 +71,10 @@ Ejercicio Funko, Laura Garrido Arredondo
 </ul>
 <b>-Fichero write Json:</b>
 <p>Se encargará de escribir el json de funkos.</p>
+<ul>
+  <li>Primero se Importa las bibliotecas Gson y opencsv.</li>
+<li>En el método writeJSON, crea un archivo JSON en una ubicación específica y escribe una lista de objetos Funko en él usando Gson para la serialización.</li>
+<li>Y por ultimo en el método main, se utiliza Leercsv para con la clase writeJSON  escribir esos datos en un archivo JSON llamado "Funkos.json".</li>
+</ul>
 <b>-Carpeta Json donde estara el json de Funkos.</b>
 <b>-Carpeta resources</b>
